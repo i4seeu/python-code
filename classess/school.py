@@ -52,7 +52,7 @@ school1.setDistrict("Blantyre")
 school_district = school1.getDistrict()
 print(school_district)
 
-school1.setCountry("Malawi")
+school1.setCountry("RSA")
 school_country = school1.getCountry()
 print(school_country)
 
