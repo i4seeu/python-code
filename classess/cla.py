@@ -3,16 +3,18 @@ class Student:
     self.name = name
     self.id = id
     self.age = age
-
+  def assessPassMark(self, marks):
+     print(self.name, " mark is ", marks)
+  def changeName(self, newname):
+    self.name = newname
+  def setAge(self, age):
+    self.age = age
+  def getAge(self):
+    return self.age
 student1 = Student("Noordeen Malango","RG123",35)
-student2 = Student("Rina7 Narciso", "MA222",0)
-
-
-print(student1.name)
-print(student1.id)
-print(student1.age)
-
-print(student2.name)
-print(student2.id)
-print(student2.age)
-
+student1.assessPassMark(40)
+student1.changeName("Vanessa Narciso")
+student1.assessPassMark(40)
+student1.setAge(60)
+student_age = student1.getAge()
+print(student_age)
