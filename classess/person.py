@@ -35,8 +35,10 @@ class Staff(Person):
     def __init__(self, firstname, lastname, age, weight):
         Person.__init__(self, firstname, lastname, age, weight)
     
-stud1 = Student("Van","Nar",20, "40kg")
+stud1 = Student("Van","Nar",20, 40)
 print(stud1.isObes())
 
+stf1 = Staff("Rina","Nar",25, 85)
+print(stf1.isObes())
 
 
