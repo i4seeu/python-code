@@ -16,9 +16,3 @@ class Audi(Car):
     def __init__(self, engine, tires, year,color):
         Car.__init__(self,engine,tires,year,color)
 
-r8 = Audi("beam 2000",4, "1994","Black")
-engine = r8.getEngine()
-print(engine)
-r8.setEngine("AUdi Engine")
-engine = r8.getEngine()
-print(engine)
