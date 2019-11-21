@@ -1,0 +1,61 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "I want to know my Horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me my horoscope?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
+        "entities": []
+      },
+      {
+        "text": "hie",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "19-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "19",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
